@@ -1,0 +1,25 @@
+// Ejercicio 03.03. 
+// Pide al usuario dos números enteros y muestra su división y el resto de la división.
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0303
+{
+    static void Main()
+    {
+        int a, b;
+
+        Console.Write("Dime un número: ");
+        a = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Dime otro número: ");
+        b = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Su división es ");
+        Console.WriteLine( a / b );
+        Console.Write("El resto de la división es ");
+        Console.WriteLine( a % b );
+    }
+}

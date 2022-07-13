@@ -1,0 +1,16 @@
+// Ejercicio 02.03. 
+// Calcula el cuadrado de 16. 
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0203
+{
+    static void Main()
+    {
+        Console.WriteLine( 16 * 16 );
+    }
+}
+

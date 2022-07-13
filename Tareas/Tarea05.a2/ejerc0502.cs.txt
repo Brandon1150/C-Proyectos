@@ -1,0 +1,38 @@
+// Ejercicio 05.02.
+// Pide al usuario el nombre de un mes, en minúsculas (por ejemplo", marzo") 
+// y responde cuántos días tiene (para "marzo", la respuesta sería 31). 
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0502
+{
+    static void Main()
+    {
+        Console.Write("Dime el nombre de un mes: ");
+        string nombreMes = Console.ReadLine();
+        
+        // Nota: lo siguiente se podría abreviar, pero es un
+        // detalle demasiado avanzado para un curso tan breve
+        switch(nombreMes)                          
+        {
+            case "enero": Console.WriteLine("Tiene 31 días"); break;
+            case "febrero": Console.WriteLine("Tiene 28 días"); break;
+            case "marzo": Console.WriteLine("Tiene 31 días"); break;
+            case "abril": Console.WriteLine("Tiene 30 días"); break;
+            case "mayo": Console.WriteLine("Tiene 31 días"); break;
+            case "junio": Console.WriteLine("Tiene 30 días"); break;
+            case "julio": Console.WriteLine("Tiene 31 días"); break;
+            case "agosto": Console.WriteLine("Tiene 31 días"); break;
+            case "septiembre": Console.WriteLine("Tiene 30 días"); break;
+            case "octubre": Console.WriteLine("Tiene 31 días"); break;
+            case "noviembre": Console.WriteLine("Tiene 30 días"); break;
+            case "diciembre": Console.WriteLine("Tiene 31 días"); break;
+            default: Console.WriteLine("No es un mes válido"); break;
+        }
+
+    }
+}
+

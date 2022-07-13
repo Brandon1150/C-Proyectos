@@ -1,0 +1,16 @@
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.csproj.AssemblyReference.cache
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.AssemblyInfoInputs.cache
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.AssemblyInfo.cs
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.csproj.CoreCompileInputs.cache
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\bin\Debug\net5.0\Tarea04.1a3.exe
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\bin\Debug\net5.0\Tarea04.1a3.deps.json
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\bin\Debug\net5.0\Tarea04.1a3.runtimeconfig.json
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\bin\Debug\net5.0\Tarea04.1a3.runtimeconfig.dev.json
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\bin\Debug\net5.0\Tarea04.1a3.dll
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\bin\Debug\net5.0\Tarea04.1a3.pdb
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.dll
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\refint\Tarea04.1a3.dll
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.pdb
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\Tarea04.1a3.genruntimeconfig.cache
+C:\Users\Xbox3\source\repos\Tareas\Tarea04.1a3\Tarea04.1a3\obj\Debug\net5.0\ref\Tarea04.1a3.dll

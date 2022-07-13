@@ -1,0 +1,26 @@
+// Ejercicio 04.01. 
+// Pide al usuario su nombre y responde "Acceso permitid " o "Acceso denegado", 
+// según si ha introducido tu nombre u otro distinto.
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0401
+{
+    static void Main()
+    {
+        Console.Write("Dime tu nombre: ");
+        string nombre = Console.ReadLine();
+        if (nombre == "Nacho")
+        {
+            Console.WriteLine("Acceso permitido");
+        }
+        else
+        {
+            Console.WriteLine("Acceso denegado");
+        }
+    }
+}
+

@@ -1,0 +1,16 @@
+// Ejercicio 02.04. 
+// Halla el resto de dividir 169 entre 7.
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0204
+{
+    static void Main()
+    {
+        Console.WriteLine( 169 % 7 );
+    }
+}
+

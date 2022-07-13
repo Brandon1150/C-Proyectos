@@ -1,0 +1,16 @@
+// Ejercicio 01.01. 
+// Crea un programa que escriba en pantalla "Por ahora, no parece difícil"
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0101
+{
+    static void Main()
+    {
+        Console.WriteLine("Por ahora, no parece difícil");
+    }
+}
+

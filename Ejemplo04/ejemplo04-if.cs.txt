@@ -1,0 +1,88 @@
+using System;
+
+class PruebaDeIf
+{
+    static void Main()
+    {
+        
+        Console.Write("Dime un número: ");
+        int n = Convert.ToInt32( Console.ReadLine() );
+
+        if ( n > 0 )
+        {
+            Console.WriteLine("Es positivo");
+            Console.WriteLine("...");
+        }
+        else
+        {
+            Console.WriteLine("Es negativo o cero");
+            Console.WriteLine("...");
+        }
+
+        if (n < 0 )
+        {
+            Console.WriteLine("Es negativo");
+        }
+
+        // >= Mayor o igual
+        // <= Menor o igual
+        // == Igual a
+        // != Distinto de
+
+        if (n == 5)
+        {
+            Console.WriteLine("Es cinco");
+        }
+
+        if (n != 3)
+        {
+            Console.WriteLine("No es tres");
+        }
+
+        // && y
+        // || o
+        // ! no
+
+        if (( n == 2) || (n == 3))
+        {
+            Console.WriteLine("Es 2 o 3");
+        }
+
+        if ((n > 0) && (n % 2 == 0))
+        {
+            Console.WriteLine("Es positivo y par");
+        }
+
+        if (! (n < 0))
+        {
+            Console.WriteLine("No es negativo");
+        }
+
+        if (n == 2)
+        {
+            Console.WriteLine("Es 2");
+        }
+        else if (n == 4)
+        {
+            Console.WriteLine("Es 4");
+        }
+        else if (n == 5)
+        {
+            Console.WriteLine("Es 5");
+        }
+        else
+        {
+            Console.WriteLine("No está entre el 2 y el 5");
+        }
+
+
+        Console.Write("Dime tu nombre: ");
+        string nombre = Console.ReadLine();
+        if (nombre == "Nacho")
+        {
+            Console.WriteLine("Hola");
+        }
+
+    }
+}
+

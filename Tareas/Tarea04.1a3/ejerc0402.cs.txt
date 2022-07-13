@@ -1,0 +1,31 @@
+// Ejercicio 04.02. 
+// Pide al usuario dos números enteros y muestra su división 
+// en caso de que el segundo no sea cero. 
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0402
+{
+    static void Main()
+    {
+        Console.Write("Dime un número: ");
+        int numerador = Convert.ToInt32( Console.ReadLine() );
+        
+        Console.Write("Dime otro: ");
+        int denominador = Convert.ToInt32( Console.ReadLine() );
+
+        if ( denominador != 0 )
+        {
+            Console.Write("Su división es ");
+            Console.WriteLine(  numerador / denominador );
+        }
+        else
+        {
+            Console.WriteLine("No puedo dividir entre cero");
+        }
+    }
+}
+

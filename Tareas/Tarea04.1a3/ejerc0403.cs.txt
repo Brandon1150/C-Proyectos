@@ -1,0 +1,34 @@
+// Ejercicio 04.03. 
+// Pide al usuario dos números enteros responde cuántos de ellos son positivos.
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0403
+{
+    static void Main()
+    {
+        
+        Console.Write("Dime un número: ");
+        int n1 = Convert.ToInt32( Console.ReadLine() );
+        
+        Console.Write("Dime otro: ");
+        int n2 = Convert.ToInt32( Console.ReadLine() );
+
+        if (( n1 > 0 ) && (n2 > 0))
+        {
+            Console.WriteLine("Los dos son positivos");
+        }
+        else if (( n1 > 0 ) || (n2 > 0))
+        {
+            Console.WriteLine("Uno es positivo");
+        }
+        else
+        {
+            Console.WriteLine("Ninguno es positivo");
+        }
+    }
+}
+

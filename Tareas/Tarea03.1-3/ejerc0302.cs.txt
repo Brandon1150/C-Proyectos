@@ -1,0 +1,23 @@
+// Ejercicio 03.02. 
+// Pide al usuario dos números reales y muestra su división.
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0302
+{
+    static void Main()
+    {
+        double n1, n2;
+
+        Console.Write("Dime un número: ");
+        n1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Dime otro número: ");
+        n2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Su división es ");
+        Console.WriteLine( n1 / n2 );
+    }
+}

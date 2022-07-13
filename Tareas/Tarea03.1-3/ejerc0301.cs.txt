@@ -1,0 +1,21 @@
+// Ejercicio 03.01. 
+// Pide al usuario su nombre y dile "Bienvenido, " seguido del nombre que haya introducido.
+
+// Parte del curso: Lo básico de C#, por Nacho Cabanes
+// https://www.udemy.com/course/lo-basico-de-csharp/
+
+using System;
+
+class Ejercicio0301
+{
+    static void Main()
+    {
+        string nombre;
+
+        Console.Write("Dime tu nombre: ");
+        nombre = Console.ReadLine();
+
+        Console.Write("Bienvenido, ");
+        Console.WriteLine(nombre);
+    }
+}
